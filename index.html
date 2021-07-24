@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>To Do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/63f7dd6e2a.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+    <title>To Do list</title>
 </head>
 <body>
-    <div class="MYdiv">
-        <div class="header">
-            <h2> To Do List</h2>
-            <span class="input">
-                <input type="text" class="Task">
-                <button class="BTN1">ADD Task</button>
-            </span>
-        </div>
 
-        <div class="Task">
-            <span>
-                <ul>
-                    <span><li>Buy Milk</li> <button class="Btn-DEl">delete Task</button></span>
-                    <span><li>Go to gym</li><button class="Btn-DEl">delete Task</button></span>
-                    <span><li>Pay bills</li><button class="Btn-DEl">delete Task</button></span>
-                    <span><li>read books</li><button class="Btn-DEl">delete Task</button></span>
-                </ul>
-            </span>
-        </div>
+    <header>
+        <h1>Osmans to do</h1>
+    </header>
 
+    <form>
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+    </form>
+
+    <div class="todo-container">
+        <ul class="todo-list">
+           
+        </ul>
     </div>
-    
+
+
+
+
+    <script src="app.js"></script>
 </body>
 </html>
